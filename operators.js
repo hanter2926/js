@@ -53,7 +53,7 @@
 
 let born = 12;
 let result = (born>=18)? "adult" : "minor";
-console.log(result); //audult
+console.log(result); //minor
 
 
 
