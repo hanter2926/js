@@ -66,8 +66,17 @@
 // }
 
 //wile loop
-let i = 1;
-while(i<=7){
-    console.log(i);
-    i++;
-}
+// let i = 1;
+// while(i<=7){
+//     console.log(i);
+//     i++;
+// }
+
+
+//do while loop
+
+let name = 1
+do{
+    console.log(name);
+    name++;
+}while(name<=8);
