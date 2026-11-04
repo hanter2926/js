@@ -1,7 +1,19 @@
 // premitive data types
-const num= 30; // number
-const name="vikram"; // string
-const isTrue=true; // boolean
-let a; // undefined
 
-console.log(num, name, isTrue, a);
+
+// const num= 30; // number
+// const name="vikram"; // string
+// const isTrue=true; // boolean
+// let a; // undefined
+
+// console.log(num, name, isTrue, a);
+
+ // arthmetic operators
+
+ let a = 10 , b = 6;
+console.log(a+b); //16
+console.log(a-b); //4
+console.log(a*b); //60
+console.log(a/b); //1.66
+console.log(a%b); //4
+console.log(a**b); //1000000
