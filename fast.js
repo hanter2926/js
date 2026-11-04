@@ -24,5 +24,5 @@ function print(){
  console.log(++result);
 //  console.log(++result);
 
-document.getElementById("output").innerHTML = "result" + result;
+document.getElementById("output").innerHTML = "Result :- " + result;
 
