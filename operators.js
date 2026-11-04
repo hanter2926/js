@@ -10,10 +10,20 @@
 
  // arthmetic operators
 
- let a = 10 , b = 6;
-console.log(a+b); //16
-console.log(a-b); //4
-console.log(a*b); //60
-console.log(a/b); //1.66
-console.log(a%b); //4
-console.log(a**b); //1000000
+//  let a = 10 , b = 6;
+// console.log(a+b); //16
+// console.log(a-b); //4
+// console.log(a*b); //60
+// console.log(a/b); //1.66
+// console.log(a%b); //4
+// console.log(a**b); //1000000
+
+
+// assignement operators
+
+let a = 4;
+a += 5;
+a -= 3;
+a *= 5;
+a /= 1;
+console.log(a); //30
