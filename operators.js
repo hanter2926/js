@@ -21,9 +21,22 @@
 
 // assignement operators
 
-let a = 4;
-a += 5;
-a -= 3;
-a *= 5;
-a /= 1;
-console.log(a); //30
+// let a = 4;
+// a += 5;
+// a -= 3;
+// a *= 5;
+// a /= 1;
+// console.log(a); //30
+
+//relational operators
+
+let a = 20, b = 30;
+console.log(a>b); //false
+console.log(a<b); // true
+console.log(a<=b); // true
+console.log(a>=b); //false
+console.log(a==b); //false
+console.log(a!=b); //true
+console.log(a===b); //false
+
+
