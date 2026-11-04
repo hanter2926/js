@@ -51,8 +51,8 @@
 
 //ternary operator
 
-let born = 18;
-let result = (born>=18)? "adult" : "not adult";
+let born = 12;
+let result = (born>=18)? "adult" : "minor";
 console.log(result); //audult
 
 
