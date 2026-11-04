@@ -4,3 +4,4 @@ const name="vikram"; // string
 const isTrue=true; // boolean
 let a; // undefined
 
+console.log(num, name, isTrue, a);
