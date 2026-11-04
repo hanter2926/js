@@ -1,5 +1,7 @@
 function name(){
-    controle.log("Vikram Pal");
-    alert("Name");
+    console.log("Vikram Pal");
+   
+    console.log("Your name");
 }
 name();
+
