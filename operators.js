@@ -42,11 +42,11 @@
 
 // logical operators
 
-let a = 20, b = 25;
-console.log(a&&b); //25
-console.log(a||b); //20
+let a = true, b = false;
+console.log(a&&b); //false
+console.log(a||b); //true
 console.log(!a); //false
-console.log(!b); //false
+console.log(!b); //true
 
 
 
