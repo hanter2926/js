@@ -61,6 +61,13 @@
 
 // for loop
 
-for(let i=1; i<=10; ++i){
+// for(let i=1; i<=10; ++i){
+//     console.log(i);
+// }
+
+//wile loop
+let i = 1;
+while(i<=7){
     console.log(i);
+    i++;
 }
