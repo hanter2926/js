@@ -75,8 +75,16 @@
 
 //do while loop
 
-let name = 1
+// let name = 1
+// do{
+//     console.log(name);
+//     name++;
+// }while(name<=8);
+
+let name = 1 
 do{
     console.log(name);
     name++;
-}while(name<=8);
+}while(name>=8);
+
+
