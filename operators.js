@@ -42,11 +42,18 @@
 
 // logical operators
 
-let a = true, b = false;
-console.log(a&&b); //false
-console.log(a||b); //true
-console.log(!a); //false
-console.log(!b); //true
+// let a = true, b = false;
+// console.log(a&&b); //false
+// console.log(a||b); //true
+// console.log(!a); //false
+// console.log(!b); //true
+
+
+//ternary operator
+
+let born = 18;
+let result = (born>=18)? "adult" : "not adult";
+console.log(result); //audult
 
 
 
