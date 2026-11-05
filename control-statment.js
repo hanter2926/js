@@ -81,10 +81,19 @@
 //     name++;
 // }while(name<=8);
 
-let name = 1 
-do{
-    console.log(name);
-    name++;
-}while(name>=8);
+// let name = 1 
+// do{
+//     console.log(name);
+//     name++;
+// }while(name>=8);
 
 
+
+//jamp  function
+
+for(let i = 1; i<10; i++){
+    if(i==5){
+        break;
+    }
+    console.log(i);
+}
