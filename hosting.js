@@ -12,7 +12,15 @@
 // disp();
 
 
-console.log(num)
+// console.log(num)
 // let num = 23  // not for the hosting
 // const num = 23 //not for hosting
 // var num = 23  // undefined
+
+
+
+// function  hosting (declare) is the hostide
+// disp()
+// function disp(){
+//     console.log("Hello vikram ")  
+// }
