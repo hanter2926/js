@@ -91,9 +91,16 @@
 
 //jamp  function
 
-for(let i = 1; i<10; i++){
-    if(i==5){
-        break;
-    }
-    console.log(i);
-}
+// for(let i = 1; i<10; i++){
+//     if(i==5){
+//         break;  // number break the loop when i is 5
+//     }
+//     console.log(i);
+// }
+
+// for (let i = 1; i<10; i++){
+//     if(i==7){
+//         continue; // number skip the loop when i is 7
+//     }
+//     console.log(i);
+// }
