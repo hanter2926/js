@@ -29,7 +29,7 @@
 
 
 // function  expression is not the hostide
-hello()
-let hello=function(){
-    console.log("HII")
-}
+// hello() 
+// let hello=function(){
+//     console.log("HII")
+// }
