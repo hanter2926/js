@@ -18,7 +18,7 @@ function oderfood(customer, callback){
 }
 
 function deliverfood(){
-    console.log("Food is delivered");
+    console.log("Food is delivered enjoy your food");
 }
 
 oderfood("Vikram", deliverfood);
