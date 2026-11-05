@@ -49,7 +49,12 @@ const user=[
     }
 ]
 
-user.forEach(user => console.log(user))
-user.forEach(user => console.log(user.name))
-user.forEach(user => console.log(user.email))
-user.forEach(user => console.log(user.age))
+// user.forEach(user => console.log(user))             // using this foeEach loop
+// user.forEach(user => console.log(user.name))
+// user.forEach(user => console.log(user.email))
+// user.forEach(user => console.log(user.age))
+
+// const newuser=user.map(user => user.name.toLocaleUpperCase())
+const newuser=user.map(user => user.email.toLocaleUpperCase())
+
+console.log(newuser)
