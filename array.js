@@ -12,8 +12,44 @@
 
 
 // filter function its use to filter the data and return new array
- let user=["prince", "oomparkesh", "parveen", "sonu", "manish"]
+//  let user=["prince", "oomparkesh", "parveen", "sonu", "manish"]
 
 
- let newuser=user.filter((user)=>user==="oomparkesh")
- console.log(newuser)
+//  let newuser=user.filter((user)=>user==="oomparkesh")
+//  console.log(newuser)
+
+
+
+// objects in js
+
+const user=[
+    {
+        id : 1, 
+        name : "Vikram Pal",
+        age : 20,
+        email : "vikram@gmail.com"
+    },
+    {
+        id : 2,
+        name : "Viksh Kumar",
+        age : 19,
+        email : "viksh@gmail.com"
+    },
+    {
+        id :3,
+        name : "viveek Kumar",
+        age : 21,
+        email : "viveek@gmail.com"
+    },
+    {
+        id : 4,
+        name : "vivan singh",
+        age : 20,
+        email : "vivan@gmail.com",
+    }
+]
+
+user.forEach(user => console.log(user))
+user.forEach(user => console.log(user.name))
+user.forEach(user => console.log(user.email))
+user.forEach(user => console.log(user.age))
