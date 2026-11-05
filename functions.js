@@ -6,7 +6,15 @@
 // }console.log(callfunctionparameter( "Vikram Pal", 25));
 
 // anonymous functions
-const reselt=function(name){
-    return "Hello " + name
+// const reselt=function(name){
+//     return "Hello " + name
+// }
+// console.log(reselt(  "Vikram Pal"));
+
+//callback function
+
+function user(name, callback){
+    console.log(name)
+    callback()
 }
-console.log(reselt(  "Vikram Pal"));
+user("Vikram Pal", ()=>console.log("Done!!!") )
