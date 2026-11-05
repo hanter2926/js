@@ -41,7 +41,7 @@ const obj=new Promise((resolve, reject)=>{
     console.log("panding... <pending>", )
     setTimeout(()=>{
         const pin = 2212
-        if(pin ===2222){
+        if(pin === 2222){
             resolve("pin is correct" )
         }else{
             reject("pin is incorrect")
