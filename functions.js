@@ -13,8 +13,13 @@
 
 //callback function
 
-function user(name, callback){
-    console.log(name)
-    callback()
-}
-user("Vikram Pal", ()=>console.log("Done!!!") )
+// function user(name, callback){
+//     console.log(name)
+//     callback()
+// }
+// user("Vikram Pal", ()=>console.log("Done!!!") )
+
+//arrow function 
+
+const reselt=(name)=>"Hello " + name
+console.log(reselt("Vikram Pal"));
