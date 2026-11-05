@@ -59,3 +59,5 @@ const user=[
 // console.log(newuser)
 
 
+const newuser=user.filter(user => user.age>20)
+console.log(newuser)
