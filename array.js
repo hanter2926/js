@@ -54,7 +54,8 @@ const user=[
 // user.forEach(user => console.log(user.email))
 // user.forEach(user => console.log(user.age))
 
-// const newuser=user.map(user => user.name.toLocaleUpperCase())
-const newuser=user.map(user => user.email.toLocaleUpperCase())
+// const newuser=user.map(user => user.name.toLocaleUpperCase())   // using the map function to transform
+// const newuser=user.map(user => user.email.toLocaleUpperCase())
+// console.log(newuser)
 
-console.log(newuser)
+
